@@ -1,0 +1,6 @@
+#!/bin/bash
+
+w
+
+hostname
+
