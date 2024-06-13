@@ -53,13 +53,12 @@ apt install ssh
 echo "Сетевой адрес"
 grc ifconfig | grep 192.168.
 
-#Генерация SSH-ключа
-cd /home/vlad
+#Установка java
+apt-get install default-jdk
 
-ssh-keygen 
+#Проверка версии Java
+java -version
 
-cat ~/.ssh/id_rsa.pub
-
-
-
-
+#Установка калькулятора и календаря
+apt install calc
+apt install ncal
