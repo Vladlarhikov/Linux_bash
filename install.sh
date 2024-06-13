@@ -41,3 +41,11 @@ sudo apt install git
 
 #Установка VIM
 sudo apt install vim
+
+apt install net-tools
+
+apt install ssh
+
+echo "Сетевой адрес"
+grc infconfig | grep 192.168.
+
