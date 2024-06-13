@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo su
+
 w
 
 hostname
@@ -16,6 +18,7 @@ sudo apt install grc
 #Мониторинг ресурсов сервера
 apt install nmon
 
+#Установка файлового менеджера
 apt install mc
 
 echo "Установка Docker"
@@ -42,10 +45,21 @@ sudo apt install git
 #Установка VIM
 sudo apt install vim
 
+#Установка сетев
 apt install net-tools
 
 apt install ssh
 
 echo "Сетевой адрес"
-grc infconfig | grep 192.168.
+grc ifconfig | grep 192.168.
+
+#Генерация SSH-ключа
+cd /home/vlad
+
+ssh-keygen 
+
+cat ~/.ssh/id_rsa.pub
+
+
+
 
