@@ -17,6 +17,7 @@ sudo apt install grc
 
 #Мониторинг ресурсов сервера
 apt install nmon
+apt install htop
 
 #Установка файлового менеджера
 apt install mc
@@ -62,3 +63,6 @@ java -version
 #Установка калькулятора и календаря
 apt install calc
 apt install ncal
+
+#Пакетный менеджер aptitude
+sudo apt install aptitude
